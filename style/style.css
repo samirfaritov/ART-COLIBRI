@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.conteiner {
+  width: 100%;
+  height: 100%;
+  padding: 20px 50px;
+}
+
+.conteiner .navbar {
+  width: 100%;
+  height: 60px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.conteiner .navbar .logo {
+  display: flex;
+  gap: 20px;
+}
+
+.conteiner .navbar .navlinks ul {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  left: 30px;
+}
+
+.conteiner .navbar .btn {
+  position: absolute;
+  right: 0;
+}
+
+.conteiner .navbar .logo .katalog {
+  display: inline-flex;
+  padding: 14px 30px 15px 30px;
+  align-items: flex-start;
+  gap: 5px;
+  border-radius: 5px;
+  border: 2px solid #c949ca;
+  background: #c949ca;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+
+.conteiner .navbar .logo input {
+  width: 443px;
+  height: 49px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  border: 2px solid #a9a9a9;
+  padding: 0 20px;
+  font-size: 22px;
+}
+
+.conteiner .navbar .navlinks ul li a {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+select {
+  border: none;
+  cursor: pointer;
+}
+
+.conteiner .content ul {
+  width: 100%;
+  height: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.conteiner .content ul li a {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.conteiner .newYear {
+  width: 100%;
+  height: 600px;
+  border: 1px solid transparent;
+  display: flex;
+}
+
+.conteiner .newYear .left {
+  width: 45%;
+  height: 100%;
+  background-color: #a1e2eb;
+  padding: 150px 35px;
+}
+
+.conteiner .newYear .right {
+  width: 60%;
+  height: 100%;
+  background-image: url("../img/pink-birthday-air-balloons-on-mint-background-with-mockup\ 2.png");
+  background-size: 100% 100%;
+}
+
+.conteiner .newYear .left h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 104px */
+}
+
+.conteiner .newYear .left .but {
+  display: flex;
+  gap: 40px;
+}
+
+.conteiner .newYear .left button {
+  display: inline-flex;
+  padding: 25px 50px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 13px;
+  background: #fff;
+  color: #2d2d2d;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 32.5px */
+  border: none;
+  cursor: pointer;
+}
