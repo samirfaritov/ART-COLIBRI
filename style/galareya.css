@@ -447,45 +447,24 @@ header {
   border-radius: 7px;
 }
 
-.conteiner .korzina {
+.b4 {
+  position: relative;
+  right: 171px;
+  top: 47px;
+}
+
+.conteiner .galareya {
   display: flex;
-  gap: 100px;
-}
-
-.b2 {
-  display: flex;
-  gap: 25px;
-  align-items: center;
-  justify-content: center;
-}
-.conteiner .korzina .right button {
-  display: inline-flex;
-  padding: 25px 105px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 10px;
-  border: 2px solid #c949ca;
-  background: #c949ca;
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%; /* 36.4px */
-  border: none;
-  cursor: pointer;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-around;
 }
 
 
-.conteiner .korzina .left img {
-  width: 750px;
-  height: 650px;
-  flex-shrink: 0;
-  object-fit: contain;
-}
-
-.conteiner .korzina .right .box {
-  width: 422.001px;
-height: 1px;
-background: #C0C0C0;
+.conteiner .galareya .item img {
+    width: 600px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 35.89px;
+    object-fit: contain;
 }

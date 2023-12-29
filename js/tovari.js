@@ -1,3 +1,7 @@
+window.addEventListener('click', (e) => {
+    e.preventDefault()
+})
+
 const home = document.querySelector('.home')
 
 home.addEventListener('click', () => {

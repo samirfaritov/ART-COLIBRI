@@ -1,3 +1,7 @@
+window.addEventListener('click', (e) => {
+    e.preventDefault()
+})
+
 const katalog = document.querySelector('.svg2')
 
 katalog.addEventListener('click', () => {
@@ -8,4 +12,11 @@ const svg = document.querySelector('.svg')
 
 svg.addEventListener('click', () => {
     location.href = '/html/katalog.html'
+})
+
+const gal = document.querySelector('.gal')
+
+gal.addEventListener('click', () => {
+    console.log('click');
+    location.href = '/html/galareya.html'
 })
