@@ -22,6 +22,19 @@ function totalCalc() {
     total += totalP;
   });
   totalPrice.innerHTML = total;
+
+
+  const clear = document.querySelector('.x')
+  
+  const item = document.querySelector('.item')
+  const sht = document.querySelector('.sht')
+  
+  clear.addEventListener('click', () => {
+    item.style.display = 'none'
+    totalPrice.innerHTML = '0'
+    sht.innerHTML = '0'
+  })
+  
 }
 
 totalCalc();
@@ -32,18 +45,33 @@ window.addEventListener("click", (event) => {
     const counterWrapper = event.target.closest(".count");
     const counter = counterWrapper.querySelector(".count1");
     counter.innerHTML++;
+    const sht = document.querySelector('.sht')
+    sht.innerHTML++;
+    
     totalCalc();
   }
-
+  
   if (event.target.dataset.action === "minus") {
     const counterWrapper = event.target.closest(".count");
     const counter = counterWrapper.querySelector(".count1");
+    const sht = document.querySelector('.sht')
     counter.innerHTML--;
-
+    sht.innerHTML--;
     totalCalc();
-
+    
     if (counter.innerHTML < 1) {
-      counter.innerHTML = "1";
+      counter.innerHTML = "0";
+    }
+
+    if (sht.innerHTML < 1) {
+      sht.innerHTML = "0";
+    }
+
+    const item = document.querySelector('.item')
+    
+    
+    if (counter.innerHTML == 0) {
+      item.style.display = 'none'
     }
   }
 });
