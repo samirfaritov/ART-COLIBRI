@@ -1,4 +1,4 @@
-const shop = document.querySelector('.shop')
+const shop = document.querySelector('.item')
 
 
 let korzina = {
@@ -27,8 +27,7 @@ window.addEventListener('click', (e) => {
     e.preventDefault()
     let item = e.target.closest('.item')
     if (item) {
-        // location.href = '/html/birthday.html'
-        localStorage.setItem('item', JSON.stringify(item))
+        location.href = '/html/birthday.html'
     }
 
     let cardItem = {
@@ -40,85 +39,95 @@ window.addEventListener('click', (e) => {
         img: item.querySelector('img').getAttribute('src'),
       }
 
+      
+      
+      const itemCart = shop.querySelector(`[data-id="${cardItem.id}"]`)
+    //   console.log(itemCart);
 
-    //   let itemHTML = `
-    //   <div class="item" data-id="01">
-    //   <img
-    //   src="${cardItem.img}"
-    //   alt=""
-    //   class="img1"
-    // />
-    // <div class="b">
-    //   <b
-    //     class="price"
-    //     style="
-    //       color: #000;
-    //       font-family: Montserrat;
-    //       font-size: 30px;
-    //       font-style: normal;
-    //       font-weight: 600;
-    //       line-height: 130%; /* 39px */
-    //       letter-spacing: 0.9px;
-    //     "
-    //   >
-    //     ${cardItem.price}<span
-    //       style="
-    //         color: #000;
-    //         font-family: Montserrat;
-    //         font-size: 20px;
-    //         font-style: normal;
-    //         font-weight: 600;
-    //         line-height: 130%;
-    //         letter-spacing: 0.6px;
-    //       "
-    //       >p</span
-    //     >
-    //   </b>
-    //   <b
-    //     style="
-    //       color: #8b8b8b;
-    //       font-family: Montserrat;
-    //       font-size: 20px;
-    //       font-style: normal;
-    //       font-weight: 500;
-    //       line-height: 130%; /* 26px */
-    //       letter-spacing: 0.6px;
-    //       text-decoration-line: strikethrough;
-    //     "
-    //     class="weight"
-    //     >${cardItem.weight}р</b
-    //   >
-    //   <b
-    //     style="
-    //       color: #ff32a1;
-    //       font-family: Montserrat;
-    //       font-size: 20px;
-    //       font-style: normal;
-    //       font-weight: 600;
-    //       line-height: 130%; /* 26px */
-    //       letter-spacing: 0.6px;
-    //     "
-    //     class="foiz"
-    //     >${cardItem.foiz}%</b
-    //   >
-    // </div>
-    // <p
-    // class="title"
-    //   style="
-    //     color: #3a3a3a;
-    //     font-family: Montserrat;
-    //     font-size: 16px;
-    //     font-style: normal;
-    //     font-weight: 500;
-    //     line-height: 130%; /* 20.8px */
-    //     letter-spacing: 0.48px;
-    //   "
-    // >
-    //   ${cardItem.title}
-    // </p>
-    // </div>
-    //   `
+      if (itemCart) {
+      } else {
+        let itemHtml = `
+        <div class="item" data-id="01">
+        <img
+        src="${cardItem.img}"
+        alt=""
+        class="img1"
+      />
+      <div class="b">
+        <b
+          class="price"
+          style="
+            color: #000;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 130%; /* 39px */
+            letter-spacing: 0.9px;
+          "
+        >
+          ${cardItem.price}<span
+            style="
+              color: #000;
+              font-family: Montserrat;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 130%;
+              letter-spacing: 0.6px;
+            "
+            >p</span
+          >
+        </b>
+        <b
+          style="
+            color: #8b8b8b;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; /* 26px */
+            letter-spacing: 0.6px;
+            text-decoration-line: strikethrough;
+          "
+          class="weight"
+          >${cardItem.weight}р</b
+        >
+        <b
+          style="
+            color: #ff32a1;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 130%; /* 26px */
+            letter-spacing: 0.6px;
+          "
+          class="foiz"
+          >${cardItem.foiz}%</b
+        >
+      </div>
+      <p
+      class="title"
+        style="
+          color: #3a3a3a;
+          font-family: Montserrat;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 130%; /* 20.8px */
+          letter-spacing: 0.48px;
+        "
+      >
+        ${cardItem.title}
+      </p>
+      </div>
+        `
 
-    //   item.insertAdjacentHTML('beforeend', itemHTML)
-        
+        shop.insertAdjacentHTML('beforeend', itemHtml)
+        korzina.colibri.push(cardItem)
+
+      }
+
+      localStorage.setItem('korzina', JSON.stringify(korzina.colibri))
 })
