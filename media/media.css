@@ -171,33 +171,71 @@
     gap: 20px;
     position: relative;
     bottom: 285px;
-}
+  }
 
-.conteiner .ish .item {
+  .conteiner .ish .item {
     width: 331px;
     height: 320px;
     flex-shrink: 0;
     border-radius: 21px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     background-image: url(../img/Rectangle\ 2050.png);
-}
-.conteiner .ish .item2 {
+  }
+  .conteiner .ish .item2 {
     width: 331px;
     height: 320px;
     position: relative;
     left: 20px;
-}
-.conteiner .ish .item3 {
+  }
+  .conteiner .ish .item3 {
     width: 331px;
     height: 320px;
     position: relative;
     left: 20px;
-}
-.conteiner .ish .item4 {
+  }
+  .conteiner .ish .item4 {
     display: none;
-}
+  }
 
-.conteiner header  .header h1 {
-    font-size: 2px;
-}
+  .conteiner header .header {
+    display: grid;
+    gap: 20px;
+    position: relative;
+    bottom: -15px;
+    left: 109px;
+  }
+
+  .conteiner header .header1 h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .conteiner header .header h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .conteiner header .header1 {
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    right: 46px;
+  }
+
+  .conteiner header .header1 {
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    right: 46px;
+    bottom: -4567px;
+  }
+  
 }

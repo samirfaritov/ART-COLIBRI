@@ -382,3 +382,28 @@ svg {
   line-height: 130%; /* 52px */
   letter-spacing: 1.2px;
 }
+
+.conteiner header .header1 h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+}
+.conteiner header .header h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+}
+.conteiner header .header1 b {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+}
