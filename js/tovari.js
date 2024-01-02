@@ -42,8 +42,6 @@ window.addEventListener('click', (e) => {
       
       
       const itemCart = shop.querySelector(`[data-id="${cardItem.id}"]`)
-    //   console.log(itemCart);
-
       if (itemCart) {
       } else {
         let itemHtml = `

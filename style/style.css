@@ -365,3 +365,20 @@ svg {
   position: relative;
   bottom: 15px;
 }
+
+.conteiner .navbar .menu {
+  display: none;
+}
+.conteiner .navbar .menu1 {
+  display: none;
+}
+
+.conteiner .popular .pop {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+  letter-spacing: 1.2px;
+}
