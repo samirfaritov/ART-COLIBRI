@@ -248,6 +248,22 @@ select {
   /* background-image: url(""); */
   background-size: cover;
 }
+.conteiner .shop .item2 {
+  width: 280px;
+  height: 320px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  /* background-image: url(""); */
+  background-size: cover;
+}
+.conteiner .shop .item3 {
+  width: 280px;
+  height: 320px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  /* background-image: url(""); */
+  background-size: cover;
+}
 
 .b {
   display: flex;
@@ -269,48 +285,8 @@ select {
   top: 321px;
 }
 
-.conteiner .ish {
-  width: 100%;
-  height: 100%;
-  border: 1px solid transparent;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
 
-.conteiner .ish .item {
-  width: 349px;
-  height: 320px;
-  flex-shrink: 0;
-  border-radius: 21px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  background-image: url("../img/Rectangle\ 2050.png");
-}
-.conteiner .ish .item2 {
-  width: 349px;
-  height: 320px;
-  flex-shrink: 0;
-  border-radius: 21px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  background-image: url("../img/Rectangle\ 2051.png");
-}
-.conteiner .ish .item3 {
-  width: 349px;
-  height: 320px;
-  flex-shrink: 0;
-  border-radius: 21px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  background-image: url("../img/Rectangle\ 2052.png");
-}
-.conteiner .ish .item4 {
-  width: 150px;
-  height: 320px;
-  flex-shrink: 0;
-  border-radius: 21px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  background-image: url("../img/Rectangle\ 2052\ \(1\).png");
-  position: relative;
-}
+
 
 .conteiner .ish .item4 .svg4 {
   position: absolute;
@@ -475,4 +451,120 @@ img {
   position: relative;
   top: -95%;
   left: 303px;
+}
+
+
+header {
+  padding: 0 20px;
+}
+
+
+.conteiner .h1 {
+color: #000;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 48px */
+letter-spacing: 1.2px;
+position: relative;
+left: 15px;
+}
+
+.conteiner header .header {
+display: grid;
+gap: 20px;
+}
+
+.conteiner header {
+display: flex;
+gap: 500px;
+}
+.conteiner header .header1 {
+display: grid;
+gap: 20px;
+}
+
+.inst {
+display: flex;
+gap: 70px;
+}
+.inst1 {
+display: flex;
+gap: 40px;
+}
+
+svg {
+cursor: pointer;
+}
+
+.WhatsApp {
+color: #000;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 19.5px */
+position: relative;
+bottom: 15px;
+}
+
+.conteiner .navbar .menu {
+display: none;
+}
+.conteiner .navbar .menu1 {
+display: none;
+}
+
+.conteiner .popular .pop {
+color: #000;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 52px */
+letter-spacing: 1.2px;
+}
+
+.conteiner header .header1 h1 {
+color: #000;
+font-family: Montserrat;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 52px */
+}
+.conteiner header .header h1 {
+color: #000;
+font-family: Montserrat;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 52px */
+}
+.conteiner header .header1 b {
+color: #000;
+font-family: Montserrat;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 52px */
+}
+
+.conteiner .bbq {
+display: none;
+}
+
+.none {
+display: none;
+}
+
+.gotov {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+  letter-spacing: 1.2px;
 }

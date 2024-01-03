@@ -129,3 +129,28 @@ window.addEventListener('click', (e) => {
 
       localStorage.setItem('korzina', JSON.stringify(korzina.colibri))
 })
+
+
+const clear = document.querySelector('.clear')
+const bbq = document.querySelector('.bbq')
+const menu = document.querySelector('.menu')
+const body = document.querySelector('body')
+const form  = document.querySelector('.form')
+const item2  = document.querySelector('.item')
+
+
+clear.addEventListener('click', () => {
+    bbq.style.display = 'none'
+    form .style.display = 'block'
+    menu.style.backgroundColor = '#fff'
+    item2.style.display = 'block'
+    body.style.overflow = ''
+  })
+  
+  menu.addEventListener('click', () => {
+    bbq.style.display = 'block'
+    form.style.display = 'none'
+    menu.style.backgroundColor = '#FEDDFF'
+    item2.style.display = 'none'
+    body.style.overflow = 'hidden'
+})
