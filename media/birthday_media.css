@@ -162,15 +162,14 @@
   }
 
   .conteiner .korzina .left {
+    height: 100%;
     position: relative;
-    bottom: 340px;
+    bottom: 189px;
   }
 
   .conteiner .korzina .left img {
     width: 375px;
-    height: 650px;
-    flex-shrink: 0;
-    object-fit: contain;
+    height: 100%;
   }
 
   .conteiner .korzina .right {
@@ -206,23 +205,30 @@
     cursor: pointer;
     position: relative;
     left: 51px;
-}
+  }
 
-.conteiner header .header {
+  .conteiner header .header {
     display: grid;
     gap: 20px;
     position: relative;
     bottom: 125px;
     left: 94px;
-}
+  }
 
-.conteiner header .header1 {
+  .conteiner header .header1 {
     bottom: -690px;
-}
+  }
 
-.conteiner .korzina .right .box {
+  .conteiner .korzina .right .box {
     width: 348.001px;
     height: 1px;
-    background: #C0C0C0;
-}
+    background: #c0c0c0;
+  }
+  .conteiner header .header {
+    display: grid;
+    gap: 20px;
+    position: relative;
+    bottom: -156px;
+    left: 94px;
+  }
 }

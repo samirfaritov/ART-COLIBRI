@@ -1,41 +1,46 @@
-window.addEventListener('click', (e) => {
-    e.preventDefault()
-})
+window.addEventListener("click", (e) => {
+  e.preventDefault();
+});
 
-const clickBtn = document.querySelector('.clickBtn')
+const clickBtn = document.querySelector(".clickBtn");
 
-clickBtn.addEventListener('click', () => {
-    location.href = '/html/korzina.html'
-})
+clickBtn.addEventListener("click", () => {
+  location.href = "/html/korzina.html";
+});
 
-const glav = document.querySelector('.glav')
+const glav = document.querySelector(".glav");
 
-glav.addEventListener('click', () => {
-    location.href = '/index.html'
-})
+glav.addEventListener("click", () => {
+  location.href = "/index.html";
+});
 
-const kat = document.querySelector('.kat')
+const kat = document.querySelector(".kat");
 
-kat.addEventListener('click', () => {
-    location.href = '/html/katalog.html'
-})
+kat.addEventListener("click", () => {
+  location.href = "/html/katalog.html";
+});
 
+const clear = document.querySelector(".clear");
+const bbq = document.querySelector(".bbq");
+const menu = document.querySelector(".menu");
+const body = document.querySelector("body");
+const korzina = document.querySelector(".korzina");
+const header = document.querySelector("header");
 
-const clear = document.querySelector('.clear')
-const bbq = document.querySelector('.bbq')
-const menu = document.querySelector('.menu')
-const body = document.querySelector('body')
+clear.addEventListener("click", () => {
+  bbq.style.display = "none";
+  menu.style.backgroundColor = "#fff";
+  item2.style.display = "block";
+  header.style.display = "block";
+  korzina.style.display = "flex";
+  body.style.overflow = ''
+});
 
-
-clear.addEventListener('click', () => {
-    bbq.style.display = 'none'
-    menu.style.backgroundColor = '#fff'
-    item2.style.display = 'block'
-    // body.style.overflow = ''
-  })
-  
-  menu.addEventListener('click', () => {
-    bbq.style.display = 'block'
-    menu.style.backgroundColor = '#FEDDFF'
-    // body.style.overflow = 'hidden'
-})
+menu.addEventListener("click", () => {
+  bbq.style.display = "block";
+  menu.style.backgroundColor = "#FEDDFF";
+  body.style.overflow = 'hidden'
+  header.style.display = "none";
+  console.log("click");
+  korzina.style.display = "none";
+});
