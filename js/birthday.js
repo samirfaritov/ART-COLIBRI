@@ -19,3 +19,23 @@ const kat = document.querySelector('.kat')
 kat.addEventListener('click', () => {
     location.href = '/html/katalog.html'
 })
+
+
+const clear = document.querySelector('.clear')
+const bbq = document.querySelector('.bbq')
+const menu = document.querySelector('.menu')
+const body = document.querySelector('body')
+
+
+clear.addEventListener('click', () => {
+    bbq.style.display = 'none'
+    menu.style.backgroundColor = '#fff'
+    item2.style.display = 'block'
+    // body.style.overflow = ''
+  })
+  
+  menu.addEventListener('click', () => {
+    bbq.style.display = 'block'
+    menu.style.backgroundColor = '#FEDDFF'
+    // body.style.overflow = 'hidden'
+})

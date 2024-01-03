@@ -141,7 +141,7 @@ const item2  = document.querySelector('.item')
 
 clear.addEventListener('click', () => {
     bbq.style.display = 'none'
-    form .style.display = 'block'
+    form .style.display = 'flex'
     menu.style.backgroundColor = '#fff'
     item2.style.display = 'block'
     body.style.overflow = ''

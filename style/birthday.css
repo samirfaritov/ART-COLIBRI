@@ -489,3 +489,108 @@ header {
 height: 1px;
 background: #C0C0C0;
 }
+
+header {
+  padding: 0 20px;
+}
+
+
+.conteiner .h1 {
+color: #000;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 48px */
+letter-spacing: 1.2px;
+position: relative;
+left: 15px;
+}
+
+.conteiner header .header {
+display: grid;
+gap: 20px;
+}
+
+.conteiner header {
+display: flex;
+gap: 500px;
+}
+.conteiner header .header1 {
+display: grid;
+gap: 20px;
+}
+
+.inst {
+display: flex;
+gap: 70px;
+}
+.inst1 {
+display: flex;
+gap: 40px;
+}
+
+svg {
+cursor: pointer;
+}
+
+.WhatsApp {
+color: #000;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 19.5px */
+position: relative;
+bottom: 15px;
+}
+
+.conteiner .navbar .menu {
+display: none;
+}
+.conteiner .navbar .menu1 {
+display: none;
+}
+
+.conteiner .popular .pop {
+color: #000;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 52px */
+letter-spacing: 1.2px;
+}
+
+.conteiner header .header1 h1 {
+color: #000;
+font-family: Montserrat;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 52px */
+}
+.conteiner header .header h1 {
+color: #000;
+font-family: Montserrat;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 52px */
+}
+.conteiner header .header1 b {
+color: #000;
+font-family: Montserrat;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 52px */
+}
+
+.conteiner .bbq {
+display: none;
+}
+
+.none {
+display: none;
+}

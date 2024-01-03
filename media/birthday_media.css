@@ -1,0 +1,228 @@
+@media screen and (max-width: 376px) {
+  .conteiner {
+    padding: 0;
+  }
+
+  .conteiner .navbar {
+    width: 100%;
+    height: 60px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 60px;
+  }
+
+  .conteiner .navbar .menu {
+    width: 36px;
+    height: 27px;
+    flex-shrink: 0;
+    display: block;
+    background: #fff;
+    position: absolute;
+    left: 20px;
+    top: -40px;
+    cursor: pointer;
+  }
+
+  .conteiner .navbar .logo input {
+    width: 170px;
+    height: 56px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 130px;
+    bottom: 57px;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 0;
+  }
+
+  .conteiner .navbar .menu1 {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    right: 71px;
+    bottom: 58px;
+  }
+
+  .conteiner .navbar .btn {
+    position: absolute;
+    right: 17px;
+    bottom: 68px;
+  }
+
+  .conteiner .content ul {
+    display: none;
+  }
+
+  .conteiner .navbar .navlinks ul {
+    display: none;
+  }
+
+  .conteiner .navbar .logo .katalog {
+    display: none;
+  }
+
+  .conteiner .navbar .logo .logoBtn {
+    display: none;
+  }
+
+  .conteiner header .header {
+    display: grid;
+    gap: 20px;
+    position: relative;
+    bottom: -230px;
+    left: 109px;
+  }
+
+  .conteiner header .header1 h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .conteiner header .header h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .conteiner header .header1 {
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    right: 46px;
+    bottom: -2570px;
+  }
+
+  .conteiner .navbar .navlinks ul {
+    display: none;
+  }
+
+  .conteiner .navbar .logo .katalog {
+    display: none;
+  }
+
+  .conteiner .bbq {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    top: 62px;
+    padding: 40px;
+    border-radius: 0;
+    position: absolute;
+    background-color: #fff;
+    right: 5px;
+    display: none;
+    border-top: 1px solid #000;
+  }
+
+  .conteiner .bbq .navlinks ul {
+    display: grid;
+    gap: 50px;
+    position: relative;
+  }
+
+  .conteiner .bbq .navlinks ul li a {
+    font-size: 24px;
+    position: absolute;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    cursor: pointer;
+  }
+
+  .conteiner .bbq .box {
+    width: 100%;
+    height: 1px;
+    background: #eee;
+  }
+
+  .conteiner .bbq .flex {
+    display: flex;
+    gap: 30px;
+  }
+
+  .conteiner .bbq .clear {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    cursor: pointer;
+  }
+
+  .conteiner .korzina .left {
+    position: relative;
+    bottom: 340px;
+  }
+
+  .conteiner .korzina .left img {
+    width: 375px;
+    height: 650px;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+
+  .conteiner .korzina .right {
+    position: relative;
+    right: 471px;
+    top: 165px;
+  }
+
+  .b2 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: -3px;
+  }
+
+  .conteiner .korzina .right button {
+    display: inline-flex;
+    padding: 18px 82px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #c949ca;
+    background: #c949ca;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 51px;
+}
+
+.conteiner header .header {
+    display: grid;
+    gap: 20px;
+    position: relative;
+    bottom: 125px;
+    left: 94px;
+}
+
+.conteiner header .header1 {
+    bottom: -690px;
+}
+
+.conteiner .korzina .right .box {
+    width: 348.001px;
+    height: 1px;
+    background: #C0C0C0;
+}
+}
