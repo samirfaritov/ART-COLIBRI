@@ -28,6 +28,7 @@ const left = document.querySelector('.left')
 const right = document.querySelector('.right')
 const pop = document.querySelector('.pop')
 const logoBtn = document.querySelector('.logoBtn')
+const body = document.querySelector('body')
 
 
 clear.addEventListener('click', () => {
@@ -37,6 +38,7 @@ clear.addEventListener('click', () => {
     left.style.display = 'block'
     logoBtn.style.display = 'block'
     pop.style.color = '#000'
+    body.style.overflow = ''
 })
 
 menu.addEventListener('click', () => {
@@ -46,4 +48,5 @@ menu.addEventListener('click', () => {
     left.style.display = 'none'
     logoBtn.style.display = 'none'
     pop.style.color = 'transparent'
+    body.style.overflow = 'hidden'
 })
