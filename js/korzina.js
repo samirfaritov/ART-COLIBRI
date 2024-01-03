@@ -149,3 +149,37 @@ window.addEventListener("click", (event) => {
 
 
 });
+
+
+const clear = document.querySelector('.clear')
+const bbq = document.querySelector('.bbq')
+const menu = document.querySelector('.menu')
+const body = document.querySelector('body')
+const pop = document.querySelector('.pop')
+const content11 = document.querySelector('.content1')
+const header1 = document.querySelector('header')
+const b4 = document.querySelector('.b4')
+const pp = document.querySelector('.pp')
+
+
+clear.addEventListener('click', () => {
+    bbq.style.display = 'none'
+    menu.style.backgroundColor = '#fff'
+    body.style.overflow = ''
+    pop.style.display = 'block'
+    content11.style.display = 'block'
+    header1.style.display = 'block'
+    b4.style.display = 'block'
+    pp.style.display = 'block'
+  })
+  
+  menu.addEventListener('click', () => {
+    bbq.style.display = 'block'
+    menu.style.backgroundColor = '#FEDDFF'
+    body.style.overflow = 'hidden'
+    pop.style.display = 'none'
+    content11.style.display = 'none'
+    header1.style.display = 'none'
+    b4.style.display = 'none'
+    pp.style.display = 'none'
+})

@@ -473,8 +473,8 @@ header {
 }
 
 .conteiner .content1 .item {
-    width: 100%;
-    height: 350px;
+  width: 100%;
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -534,9 +534,9 @@ header {
 }
 
 .x {
-    position: absolute;
-    right: 10px;
-    top: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 
 .conteiner .content1 .right {
@@ -544,8 +544,8 @@ header {
   height: 393px;
   flex-shrink: 0;
   border-radius: 21px;
-border: 2px solid #000;
-padding: 20px;
+  border: 2px solid #000;
+  padding: 20px;
 }
 
 .flex {
@@ -555,30 +555,185 @@ padding: 20px;
 
 .conteiner .content1 .right input {
   width: 100%;
-height: 69px;
-flex-shrink: 0;
-border-radius: 20px;
-border: 1px solid #000;
-background: #FFF;
-font-size: 25px;
-padding: 0 15px;
+  height: 69px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background: #fff;
+  font-size: 25px;
+  padding: 0 15px;
 }
 
 .conteiner .content1 .right button {
   width: 100%;
   display: flex;
-padding: 15px 185px 20px 143px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 17px;
-background: #F188F2;
-color: #FFF;
-font-family: Montserrat;
-font-size: 28px;
-font-style: normal;
-font-weight: 700;
-line-height: 130%; /* 36.4px */
-letter-spacing: 0.84px;
-border: none;
-cursor: pointer;
+  padding: 15px 185px 20px 143px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 17px;
+  background: #f188f2;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 36.4px */
+  letter-spacing: 0.84px;
+  border: none;
+  cursor: pointer;
+}
+
+header {
+  padding: 0 20px;
+}
+
+.conteiner .h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  letter-spacing: 1.2px;
+  position: relative;
+  left: 15px;
+}
+
+.conteiner header .header {
+  display: grid;
+  gap: 20px;
+}
+
+.conteiner header {
+  display: flex;
+  gap: 500px;
+}
+.conteiner header .header1 {
+  display: grid;
+  gap: 20px;
+}
+
+.inst {
+  display: flex;
+  gap: 70px;
+}
+.inst1 {
+  display: flex;
+  gap: 40px;
+}
+
+svg {
+  cursor: pointer;
+}
+
+.WhatsApp {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 19.5px */
+  position: relative;
+  bottom: 15px;
+}
+
+.conteiner .navbar .menu {
+  display: none;
+}
+.conteiner .navbar .menu1 {
+  display: none;
+}
+
+.conteiner .popular .pop {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+  letter-spacing: 1.2px;
+}
+
+.conteiner header .header1 h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+}
+.conteiner header .header h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+}
+.conteiner header .header1 b {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+}
+
+.conteiner .bbq {
+  display: none;
+}
+
+.none {
+  display: none;
+}
+
+.b {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 52px */
+  letter-spacing: 1.2px;
+}
+
+.bb {
+  color: #8b8b8b;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 26px */
+  letter-spacing: 0.6px;
+  text-decoration-line: strikethrough;
+}
+
+.h11 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 36.4px */
+  letter-spacing: 0.84px;
+}
+
+.p3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 36.4px */
+  letter-spacing: 0.84px;
+}
+
+.p4 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 31.2px */
+  letter-spacing: 0.72px;
 }

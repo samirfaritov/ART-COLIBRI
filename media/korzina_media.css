@@ -1,0 +1,346 @@
+@media screen and (max-width: 376px) {
+  .conteiner {
+    padding: 0;
+  }
+
+  .conteiner .navbar {
+    width: 100%;
+    height: 60px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 60px;
+  }
+
+  .conteiner .navbar .menu {
+    width: 36px;
+    height: 27px;
+    flex-shrink: 0;
+    display: block;
+    background: #fff;
+    position: absolute;
+    left: 20px;
+    top: -40px;
+    cursor: pointer;
+  }
+
+  .conteiner .navbar .logo input {
+    width: 170px;
+    height: 56px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 130px;
+    bottom: 57px;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 0;
+  }
+
+  .conteiner .navbar .menu1 {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    right: 71px;
+    bottom: 58px;
+  }
+
+  .conteiner .navbar .btn {
+    position: absolute;
+    right: 17px;
+    bottom: 68px;
+  }
+
+  .conteiner .content ul {
+    display: none;
+  }
+
+  .conteiner .navbar .navlinks ul {
+    display: none;
+  }
+
+  .conteiner .navbar .logo .katalog {
+    display: none;
+  }
+
+  .conteiner .navbar .logo .logoBtn {
+    display: none;
+  }
+
+  .conteiner header .header {
+    display: grid;
+    gap: 20px;
+    position: relative;
+    bottom: -230px;
+    left: 109px;
+  }
+
+  .conteiner header .header1 h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .conteiner header .header h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .conteiner header .header1 {
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    right: 46px;
+    bottom: -2570px;
+  }
+
+  .conteiner .navbar .navlinks ul {
+    display: none;
+  }
+
+  .conteiner .navbar .logo .katalog {
+    display: none;
+  }
+
+  .conteiner .bbq {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    top: 62px;
+    padding: 40px;
+    border-radius: 0;
+    position: absolute;
+    background-color: #fff;
+    right: 5px;
+    display: none;
+    border-top: 1px solid #000;
+  }
+
+  .conteiner .bbq .navlinks ul {
+    display: grid;
+    gap: 50px;
+    position: relative;
+  }
+
+  .conteiner .bbq .navlinks ul li a {
+    font-size: 24px;
+    position: absolute;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    cursor: pointer;
+  }
+
+  .conteiner .bbq .box {
+    width: 100%;
+    height: 1px;
+    background: #eee;
+  }
+
+  .conteiner .bbq .flex {
+    display: flex;
+    gap: 30px;
+  }
+
+  .conteiner .bbq .clear {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    cursor: pointer;
+  }
+
+  .box {
+    width: 100%;
+    height: 1px;
+    flex-shrink: 0;
+    background: #a7a7a7;
+}
+
+
+.conteiner .content1 .item .img img {
+    width: 200px;
+    position: relative;
+    bottom: 100px;
+    left: 92px;
+}
+
+.pp {
+    position: relative;
+    left: 67px;
+    top: 47px;
+    cursor: pointer;
+}
+
+.komp {
+    position: relative;
+    left: 110px;
+    bottom: 150px;
+}
+
+.b {
+    position: relative;
+    bottom: 78px;
+    right: 117px;
+    font-size: 24px;
+}
+
+.bb {
+    position: relative;
+    bottom: 75px;
+    right: 97px;
+    font-size: 15px;
+}
+
+.x {
+    position: absolute;
+    right: 3px;
+    top: -28px;
+}
+
+.count {
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #000;
+    position: relative;
+    left: 15px;
+    bottom: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.conteiner .content1 .right {
+    width: 100%;
+    height: 290px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    border: 2px solid #000;
+    padding: 20px;
+    position: absolute;
+    top: 438px;
+}
+
+.ll {
+    position: relative;
+    right: 62px;
+}
+
+.h11 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.84px;
+}
+
+.p3 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.84px;
+}
+
+.p4 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.72px;
+}
+
+.flex {
+    gap: 213px;
+    position: relative;
+    bottom: 12px;
+}
+.flex1 {
+    gap: 213px;
+    position: relative;
+    bottom: 12px;
+}
+
+.flex1 {
+    gap: 213px;
+    position: relative;
+    bottom: 27px;
+}
+
+.conteiner .content1 .right input {
+    width: 100%;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #fff;
+    font-size: 25px;
+    padding: 0 15px;
+    position: relative;
+    bottom: 36px;
+}
+
+.conteiner .content1 .right button {
+    width: 100%;
+    display: flex;
+    padding: 0px 185px 14px 102px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 17px;
+    background: #f188f2;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    padding-top: 10px;
+    padding-right: 40px;
+    position: relative;
+    bottom: 44px;
+}
+
+.conteiner header .header {
+    display: grid;
+    gap: 20px;
+    position: relative;
+    bottom: -126px;
+    left: 109px;
+}
+
+.conteiner header .header1 {
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    right: 46px;
+    bottom: -530px;
+}
+
+.left {
+    width: 100%;
+}
+
+
+
+}
