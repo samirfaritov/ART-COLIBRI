@@ -289,3 +289,296 @@
     cursor: pointer;
   }
 }
+
+
+@media screen and (max-width: 426px) {
+  .conteiner {
+    padding: 0;
+  }
+
+  .conteiner .navbar {
+    width: 100%;
+    height: 60px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 60px;
+  }
+
+  .conteiner .navbar .menu {
+    width: 36px;
+    height: 27px;
+    flex-shrink: 0;
+    display: block;
+    background: #fff;
+    position: absolute;
+    left: 20px;
+    top: -40px;
+    cursor: pointer;
+  }
+
+  .conteiner .navbar .logo input {
+    width: 170px;
+    height: 56px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 130px;
+    bottom: 57px;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 0;
+  }
+
+  .conteiner .navbar .menu1 {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    right: 71px;
+    bottom: 58px;
+  }
+
+  .conteiner .navbar .btn {
+    position: absolute;
+    right: 17px;
+    bottom: 68px;
+  }
+
+  .conteiner .content ul {
+    display: none;
+  }
+
+  .conteiner .newYear {
+    position: relative;
+    top: 40px;
+  }
+
+  .conteiner .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .conteiner .newYear .left {
+    width: 45%;
+    height: 50%;
+    background-color: #a1e2eb;
+    padding: 150px 5px;
+    position: relative;
+  }
+
+  .conteiner .newYear .right {
+    width: 60%;
+    height: 50%;
+    background-image: url(../img/pink-birthday-air-balloons-on-mint-background-with-mockup\ 2.png);
+    background-size: 100% 100%;
+  }
+
+  .conteiner .newYear .left h1 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    position: relative;
+    bottom: 110px;
+  }
+
+  .conteiner .newYear .left button {
+    display: none;
+  }
+
+  .conteiner .popular {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    position: relative;
+    bottom: 264px;
+  }
+
+  .conteiner .popular .pop {
+    font-size: 29px;
+  }
+
+  .conteiner .buy {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+    bottom: 279px;
+  }
+
+  .conteiner .shop .shop1 {
+    display: none;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .conteiner .shop {
+    /* display: none;   */
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 300px;
+  }
+
+  .conteiner .shop .item {
+    width: 341px;
+    height: 320px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background-image: url(../img/245172435_120758847008175_9018866459178403890_n\ 1.png);
+    background-size: cover;
+  }
+
+  .conteiner .h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1.2px;
+    position: relative;
+    left: 15px;
+    bottom: 291px;
+    text-align: center;
+  }
+
+  .conteiner .ish {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    bottom: 285px;
+  }
+
+  .conteiner .ish .item {
+    width: 331px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background-image: url(../img/Rectangle\ 2050.png);
+  }
+  .conteiner .ish .item2 {
+    width: 331px;
+    height: 320px;
+    position: relative;
+    left: 20px;
+  }
+  .conteiner .ish .item3 {
+    width: 331px;
+    height: 320px;
+    position: relative;
+    left: 20px;
+  }
+  .conteiner .ish .item4 {
+    display: none;
+  }
+
+  .conteiner header .header {
+    display: grid;
+    gap: 20px;
+    position: relative;
+    bottom: -15px;
+    left: 109px;
+  }
+
+  .conteiner header .header1 h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .conteiner header .header h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .conteiner header .header1 {
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    right: 46px;
+  }
+
+  .conteiner header .header1 {
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    right: 46px;
+    bottom: -4567px;
+  }
+
+  .conteiner .navbar .navlinks ul  {
+    display: none;
+  }
+
+  .conteiner .navbar .logo .katalog {
+    display: none;
+  }
+
+  .conteiner .bbq {
+    display: block;
+    width: 100%;
+    height: 450px;
+    border: 1px solid transparent;
+    top: 62px;
+    padding: 40px;
+    border-radius: 0;
+    position: absolute; 
+    background-color: #fff;
+    display: none;
+    border-top: 1px solid #000;
+  }
+
+  .conteiner .bbq .navlinks ul {
+    display: grid;
+    gap: 50px;
+    position: relative;
+  }
+
+  .conteiner .bbq .navlinks ul li a {
+    font-size: 24px;
+    position: absolute;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+    cursor: pointer;
+  }
+
+  .conteiner .bbq .box {
+    width: 100%;
+    height: 1px;
+    background: #eee;
+  }
+
+  .conteiner .bbq .flex {
+    display: flex;
+    gap: 30px;
+  }
+
+  .conteiner .bbq .clear {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    cursor: pointer;
+  }
+}

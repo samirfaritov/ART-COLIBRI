@@ -17,7 +17,6 @@ svg.addEventListener('click', () => {
 const gal = document.querySelector('.gal')
 
 gal.addEventListener('click', () => {
-    console.log('click');
     location.href = '/html/galareya.html'
 })
 

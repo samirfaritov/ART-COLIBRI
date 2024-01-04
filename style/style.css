@@ -361,7 +361,7 @@ svg {
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
-  line-height: 130%; /* 19.5px */
+  line-height: 130%; 
   position: relative;
   bottom: 15px;
 }
@@ -379,7 +379,7 @@ svg {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 52px */
+  line-height: 130%; 
   letter-spacing: 1.2px;
 }
 
@@ -389,7 +389,7 @@ svg {
   font-size: 54px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 52px */
+  line-height: 130%; 
 }
 .conteiner header .header h1 {
   color: #000;
@@ -397,7 +397,7 @@ svg {
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 52px */
+  line-height: 130%; 
 }
 .conteiner header .header1 b {
   color: #000;
@@ -405,7 +405,7 @@ svg {
   font-size: 54px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 52px */
+  line-height: 130%; 
 }
 
 .conteiner .bbq {

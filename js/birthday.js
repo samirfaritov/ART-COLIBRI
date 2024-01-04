@@ -30,7 +30,6 @@ const header = document.querySelector("header");
 clear.addEventListener("click", () => {
   bbq.style.display = "none";
   menu.style.backgroundColor = "#fff";
-  item2.style.display = "block";
   header.style.display = "block";
   korzina.style.display = "flex";
   body.style.overflow = ''
@@ -41,6 +40,5 @@ menu.addEventListener("click", () => {
   menu.style.backgroundColor = "#FEDDFF";
   body.style.overflow = 'hidden'
   header.style.display = "none";
-  console.log("click");
   korzina.style.display = "none";
 });
