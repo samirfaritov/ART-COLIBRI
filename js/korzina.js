@@ -15,7 +15,7 @@ ver.addEventListener("click", () => {
 function totalCalc() {
   const cartItem = document.querySelectorAll(".item");
   const totalPrice = document.querySelector(".total");
-  
+
   let total = 0;
   cartItem.forEach((item) => {
     let count = item.querySelector(".count1").innerText;
@@ -24,19 +24,17 @@ function totalCalc() {
     total += totalP;
   });
   totalPrice.innerHTML = total;
-  
-  
-  const clear = document.querySelector('.x')
-  
-  const item = document.querySelector('.item')
-  const sht = document.querySelector('.sht')
-  
-  clear.addEventListener('click', () => {
-    item.style.display = 'none'
-    totalPrice.innerHTML = '0'
-    sht.innerHTML = '0'
-  })
-  
+
+  const clear = document.querySelector(".x");
+
+  const item = document.querySelector(".item");
+  const sht = document.querySelector(".sht");
+
+  clear.addEventListener("click", () => {
+    item.style.display = "none";
+    totalPrice.innerHTML = "0";
+    sht.innerHTML = "0";
+  });
 }
 
 totalCalc();
@@ -44,11 +42,9 @@ totalCalc();
 window.addEventListener("click", (event) => {
   event.preventDefault();
   // const left = document.querySelector('.left')
-  
+
   // korzina = JSON.parse(localStorage.getItem('korzina') || '[]')
-  
-  
-  
+
   // for (let i = 0; i < korzina.length; i++) {
   //   let itemHtml = `
   //   <div class="item">
@@ -110,27 +106,27 @@ window.addEventListener("click", (event) => {
   //   </svg>
   // </div>
   //   `
-  
+
   //   left.insertAdjacentHTML('beforeend', itemHtml)
   // }
   if (event.target.dataset.action === "plus") {
     const counterWrapper = event.target.closest(".count");
     const counter = counterWrapper.querySelector(".count1");
     counter.innerHTML++;
-    const sht = document.querySelector('.sht')
+    const sht = document.querySelector(".sht");
     sht.innerHTML++;
-    
+
     totalCalc();
   }
-  
+
   if (event.target.dataset.action === "minus") {
     const counterWrapper = event.target.closest(".count");
     const counter = counterWrapper.querySelector(".count1");
-    const sht = document.querySelector('.sht')
+    const sht = document.querySelector(".sht");
     counter.innerHTML--;
     sht.innerHTML--;
     totalCalc();
-    
+
     if (counter.innerHTML < 1) {
       counter.innerHTML = "0";
     }
@@ -139,47 +135,42 @@ window.addEventListener("click", (event) => {
       sht.innerHTML = "0";
     }
 
-    const item = document.querySelector('.item')
-    
-    
+    const item = document.querySelector(".item");
+
     if (counter.innerHTML == 0) {
-      item.style.display = 'none'
+      item.style.display = "none";
     }
   }
-
-
 });
 
+const clear = document.querySelector(".clear");
+const bbq = document.querySelector(".bbq");
+const menu = document.querySelector(".menu");
+const body = document.querySelector("body");
+const pop = document.querySelector(".pop");
+const content11 = document.querySelector(".content1");
+const header1 = document.querySelector("header");
+const b4 = document.querySelector(".b4");
+const pp = document.querySelector(".pp");
 
-const clear = document.querySelector('.clear')
-const bbq = document.querySelector('.bbq')
-const menu = document.querySelector('.menu')
-const body = document.querySelector('body')
-const pop = document.querySelector('.pop')
-const content11 = document.querySelector('.content1')
-const header1 = document.querySelector('header')
-const b4 = document.querySelector('.b4')
-const pp = document.querySelector('.pp')
+clear.addEventListener("click", () => {
+  bbq.style.display = "none";
+  menu.style.backgroundColor = "#fff";
+  body.style.overflow = "";
+  pop.style.display = "block";
+  content11.style.display = "block";
+  header1.style.display = "block";
+  b4.style.display = "block";
+  pp.style.display = "block";
+});
 
-
-clear.addEventListener('click', () => {
-    bbq.style.display = 'none'
-    menu.style.backgroundColor = '#fff'
-    body.style.overflow = ''
-    pop.style.display = 'block'
-    content11.style.display = 'block'
-    header1.style.display = 'block'
-    b4.style.display = 'block'
-    pp.style.display = 'block'
-  })
-  
-  menu.addEventListener('click', () => {
-    bbq.style.display = 'block'
-    menu.style.backgroundColor = '#FEDDFF'
-    body.style.overflow = 'hidden'
-    pop.style.display = 'none'
-    content11.style.display = 'none'
-    header1.style.display = 'none'
-    b4.style.display = 'none'
-    pp.style.display = 'none'
-})
+menu.addEventListener("click", () => {
+  bbq.style.display = "block";
+  menu.style.backgroundColor = "#FEDDFF";
+  body.style.overflow = "hidden";
+  pop.style.display = "none";
+  content11.style.display = "none";
+  header1.style.display = "none";
+  b4.style.display = "none";
+  pp.style.display = "none";
+});
